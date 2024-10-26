@@ -25,12 +25,14 @@ xy-web-service服务设置模块.
 ## 安装
 
 ```bash
+# bash
 pip install xy_request_handler__feedback
 ```
 
 ## 使用
 
 ```bash
+# bash
 xy_request_handler__feedback -c project -n xy_request_handler__feedback_demo
 # 创建项目 [ xy_request_handler__feedback_demo ] 成功!!!
 # 项目路径 ==>>> /mnt/bs-media/Workspace/project/opensource/xy-web-service/xy_request_handler__feedback/test/xy_request_handler__feedback_demo

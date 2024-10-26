@@ -1,5 +1,5 @@
 #-*- coding: UTF-8 -*-
-__author__ = 'helios'
+__author__ = '余洋'
 '''
 	该类作为
 '''
