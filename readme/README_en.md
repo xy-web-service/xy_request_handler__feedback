@@ -21,7 +21,7 @@ xy-web-service Service settings module.
 - <a href="https://github.com/xy-web-service/xy_request_handler__feedback.git" target="_blank">Github</a>  
 - <a href="https://gitee.com/xy-web-service/xy_request_handler__feedback.git" target="_blank">Gitee</a>
 
-## 安装
+## Installation
 
 ```bash
 # bash
