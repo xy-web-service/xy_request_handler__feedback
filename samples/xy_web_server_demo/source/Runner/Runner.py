@@ -19,6 +19,7 @@ Django().load("xy_web_server_demo.settings")
 from Site.Indexes import Index
 from Site.Databases import Query, Add, Delete, Update
 from RequestHandlerDemo.Demoes import Demo
+from xy_request_handler__feedback.Feedbacks import Feedback
 
 
 class Runner(WebServerWork, Tornado, Django):
@@ -142,6 +143,7 @@ class Runner(WebServerWork, Tornado, Django):
         (r"/delete", Delete),
         (r"/update", Update),
         (r"/demo", Demo),
+        (r"/feedback", Feedback),
     ]
 
     # 运行 xy_web_server -w tornado start

@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,10 +36,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "xy_django_app__feedback",
     "Demo",
     "Resource",
     "Media",
+    "xy_django_app_information",
+    "xy_django_app_resource",  # xy_django_app_feedback将调用xy_django_app_resource的MImage模型
+    "xy_django_app_feedback",
 ]
 
 MIDDLEWARE = [
